@@ -49,8 +49,9 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script_stop: true
-          script: "./eureka_startup.sh"
-
+          script: |
+            chmod +x ./startup.sh
+            ./startup.sh
       - name: Run SonarQube
         run: mvn sonar:sonar -Dsonar.projectKey=ssacthree-eureka -Dsonar.projectName="ssacthree-eureka" -Dsonar.host.url=${{secrets.SONAR_HOST}} -Dsonar.token=${{secrets.SONAR_TOKEN}}
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
