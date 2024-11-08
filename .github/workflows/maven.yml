@@ -37,7 +37,7 @@ jobs:
           username: ${{ secrets.SSH_ID }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          source: "target/*.jar"
+          source: "target/ssacthree-eureka-0.0.1-SNAPSHOT.jar"
           target: "~/"
           rm: false
 
@@ -50,8 +50,9 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script_stop: true
           script: |
-            chmod +x ./startup.sh
-            ./startup.sh
+            fuser -k 8761/tcp || echo "No process on 8761"
+            chmod +x ./eureka_startup.sh
+            ./eureka_startup.sh
       - name: Run SonarQube
         run: mvn sonar:sonar -Dsonar.projectKey=ssacthree-eureka -Dsonar.projectName="ssacthree-eureka" -Dsonar.host.url=${{secrets.SONAR_HOST}} -Dsonar.token=${{secrets.SONAR_TOKEN}}
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
