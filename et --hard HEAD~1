@@ -1,0 +1,197 @@
+[33mcommit b8973b540e259bc5ad10b98680ecc90035ffdae8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/luka[m[33m)[m
+Author: 최유현 <dbgus315@naver.com>
+Date:   Fri Dec 6 09:30:26 2024 +0900
+
+    refactor:프로메테우스 의존성 추가
+
+[33mcommit 95caefd18cea6c8ee094016b051d3653dada951f[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Wed Nov 13 15:29:18 2024 +0900
+
+    fix: properties 타임아웃 시간 늘림
+
+[33mcommit 1f69e1b599dba1c3f7aec53cb91075bce8a711df[m
+Merge: 836f00e 354f218
+Author: Huimang <83748099+gimalgosa0514@users.noreply.github.com>
+Date:   Mon Nov 11 10:31:10 2024 +0900
+
+    Merge pull request #8 from nhnacademy-be7-Ssackthree/feature/test
+    
+    feat : 테스트 추가
+
+[33mcommit 354f218abf02ee8f5666df097881705edc266812[m
+Author: 조병현 <jbk28252@naver.com>
+Date:   Sat Nov 9 19:30:58 2024 +0900
+
+    feat : 테스트 추가
+
+[33mcommit 836f00e1551a8ec6f1701d8018df147b896def59[m
+Merge: 996a5a6 579e070
+Author: Huimang <83748099+gimalgosa0514@users.noreply.github.com>
+Date:   Mon Nov 4 10:08:19 2024 +0900
+
+    Merge pull request #6 from nhnacademy-be7-Ssackthree/feature/category
+    
+    feature/category
+
+[33mcommit 579e07092e37c2866f16373a7ff44020fd32565b[m
+Author: hoohsh <hoohsh@daum.net>
+Date:   Mon Nov 4 02:19:16 2024 +0900
+
+    fix: application.properties에서 timeout 시간 늘림. (카테고리 조회가 복잡해 시간 걸림)
+
+[33mcommit 996a5a655104dd1e0e1f636dbf650ac3dae43969[m
+Author: 민지 <117082670+mingjji@users.noreply.github.com>
+Date:   Thu Oct 31 16:14:00 2024 +0900
+
+    fix: maven.yml 스크립트 파일 수정
+
+[33mcommit efa32d761845389d7159debb909d3eb52fc5fa82[m
+Merge: 5216625 d6ec4ca
+Author: Huimang <83748099+gimalgosa0514@users.noreply.github.com>
+Date:   Thu Oct 31 14:50:31 2024 +0900
+
+    Merge branch 'main' into develop
+
+[33mcommit 521662510b83ba8f53b6f7e48e0c76fe1685a618[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Thu Oct 31 13:23:45 2024 +0900
+
+    fix: 쉘 스크립트 경로 수정
+
+[33mcommit 3b229a18b8b459c2212d1c0da6539d066ce4e919[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Thu Oct 31 11:35:24 2024 +0900
+
+    fix: maven.yml script위치 수정, 포트 번호 수정
+
+[33mcommit 3678aa8ff579441bf1b8fdfed821c9495a03b4a7[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Thu Oct 31 11:05:36 2024 +0900
+
+    fix: maven 파일 원래대로 수정
+
+[33mcommit 32d73b3501a4e9f9cc3d4512c30cd4383bb402a5[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Thu Oct 31 11:02:15 2024 +0900
+
+    fix: 파일 수정
+
+[33mcommit 14ac39d22dcb266a9d032a9f2b0293fe2c6ce116[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Thu Oct 31 10:53:14 2024 +0900
+
+    fix: pom파일 프로필 dev에서 prod로 수정
+
+[33mcommit 42af9c7fed79407be15318abba51066921cff290[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Thu Oct 31 10:52:19 2024 +0900
+
+    fix: pom.xml에 프로필 설정
+
+[33mcommit 46940362390b2f7439ecd0098db2819bee4f7242[m
+Author: 민지 <117082670+mingjji@users.noreply.github.com>
+Date:   Thu Oct 31 10:39:06 2024 +0900
+
+    maven.yml prod 프로필 활성화
+
+[33mcommit 3b04560a0ac787ff52be3e77632d5ab6d390791e[m
+Merge: 98a308b 49f9d59
+Author: 민지 <117082670+mingjji@users.noreply.github.com>
+Date:   Wed Oct 30 17:29:52 2024 +0900
+
+    Merge pull request #4 from nhnacademy-be7-Ssackthree/feature/infra
+    
+    Feature/infra
+
+[33mcommit 49f9d591e1cc311c94acd50cc7720c106cf26a4a[m[33m ([m[1;31morigin/feature/infra[m[33m)[m
+Merge: 424305a ab95f61
+Author: minji <qkralswl6125@naver.com>
+Date:   Wed Oct 30 00:06:38 2024 +0900
+
+    fix: 충돌해결
+
+[33mcommit 424305ac581293b00156850133dae49048c9f048[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Wed Oct 30 00:05:23 2024 +0900
+
+    fix: dev, prod 개발환경 프로필 나누기
+
+[33mcommit ab95f61f037679c7d6e7ca14e50432d64aae5faa[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Tue Oct 29 21:08:37 2024 +0900
+
+    fix: dev, prod용 프로필 나누기
+
+[33mcommit 98a308b8ce6077e8c553b7bfb3163f42b2de5617[m
+Merge: 1ded9a6 b2561d1
+Author: Huimang <83748099+gimalgosa0514@users.noreply.github.com>
+Date:   Tue Oct 29 09:31:56 2024 +0900
+
+    Merge pull request #3 from nhnacademy-be7-Ssackthree/feature/infra
+    
+    feat: eureka server 초기 설정
+
+[33mcommit b2561d1f3645a1e82a71c9561c1a4d7f926f61a5[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Sun Oct 27 13:54:59 2024 +0900
+
+    feat: eureka server 초기 설정
+
+[33mcommit d6ec4caf3f579b0b3a6e3ace31307904f12e07ba[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: 조병현 <168700800+choBottle@users.noreply.github.com>
+Date:   Fri Oct 25 15:46:09 2024 +0900
+
+    feat : sonarqube projectName 추가
+
+[33mcommit 19f29986982f82b3ab697dfb2c45f2bd75e927b8[m
+Author: 조병현 <168700800+choBottle@users.noreply.github.com>
+Date:   Tue Oct 22 16:11:01 2024 +0900
+
+    fix : maven.yml 오타 수정
+
+[33mcommit 79ebcbd25c07085306c3ae778069fb4c2f71f6ee[m
+Merge: 1971190 a963cdc
+Author: 조병현 <168700800+choBottle@users.noreply.github.com>
+Date:   Tue Oct 22 15:39:32 2024 +0900
+
+    Merge pull request #2 from nhnacademy-be7-Ssackthree/feature/sonarqube
+    
+    feat : sonarqube 추가 및 pom.xml 수정
+
+[33mcommit a963cdc8e7d179f1131ef2a076f3a731344fa3a6[m[33m ([m[1;31morigin/feature/sonarqube[m[33m)[m
+Author: 조병현 <jbk28252@naver.com>
+Date:   Tue Oct 22 15:34:36 2024 +0900
+
+    feat : sonarqube 추가 및 pom.xml 수정
+
+[33mcommit 19711906f95713e21ee169fd8671e63482bf6a8c[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Mon Oct 21 17:29:02 2024 +0900
+
+    test: 서버 테스트용 컨트롤러 생성
+
+[33mcommit 9e97d3d8a928bb3bdd3324578d9e7e5d8013f199[m
+Merge: 1ded9a6 42a77c6
+Author: minji <qkralswl6125@naver.com>
+Date:   Mon Oct 21 15:52:17 2024 +0900
+
+    Merge branch 'main' of https://github.com/nhnacademy-be7-Ssackthree/ssacthree-eureka
+
+[33mcommit 42a77c60dbe7b9c571be2dad6631f8247f7e5743[m
+Author: 민지 <117082670+mingjji@users.noreply.github.com>
+Date:   Mon Oct 21 15:39:56 2024 +0900
+
+    docs: yml파일 추가
+
+[33mcommit 1ded9a6e6d8f76fee812141d1bc9d374a9cef28f[m
+Author: minji <qkralswl6125@naver.com>
+Date:   Mon Oct 21 15:35:16 2024 +0900
+
+    init
+
+[33mcommit 2caabbc0c98dd8db8dac297eb71fc528e44d7153[m
+Author: 조병현 <168700800+choBottle@users.noreply.github.com>
+Date:   Mon Oct 21 12:19:38 2024 +0900
+
+    Initial commit
